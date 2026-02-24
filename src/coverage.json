@@ -1,0 +1,49 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-24T08:22:38.257Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 2,
+    "implemented": 2,
+    "items": [
+      {
+        "id": "REQ-1",
+        "summary": "Remove the text 'Ikku' from the page title in frontend/index.html, changing it from 'Ikku ❤️ Ek Chhota Sa Quiz' to '❤️ Ek Chhota Sa Quiz'",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/index.html"
+        ],
+        "matchedFiles": [
+          "frontend/index.html"
+        ]
+      },
+      {
+        "id": "REQ-2",
+        "summary": "Remove the text 'Ikku' from the IntroScreen component title in frontend/src/components/IntroScreen.tsx, changing the heading from 'Ikku ❤️ Ek Chhota Sa Quiz' to '❤️ Ek Chhota Sa Quiz'",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/IntroScreen.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/IntroScreen.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/index.html",
+    "frontend/src/components/IntroScreen.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

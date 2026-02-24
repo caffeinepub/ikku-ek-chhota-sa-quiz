@@ -1,0 +1,22 @@
+{
+  "frontend/src/App.tsx": "Main application component managing the full state machine (locked → welcome → intro → q1 → q2 → q3 → reveal) with session-persisted unlock state, smooth transitions, and ambient hearts layer.",
+  "frontend/src/components/IntroScreen.tsx": "Intro/home screen component displaying the romantic title \"❤️ Ek Chhota Sa Quiz\", subtitle, and \"Shuru Karein\" CTA button with heart icon decoration.",
+  "frontend/src/components/QuizScreen.tsx": "Multi-step quiz component rendering questions with selectable options, progress indicator, correct/incorrect feedback with correct answer reveal, always-available continue button, auto-advance timer for wrong answers, and heart burst animation on correct answers.",
+  "frontend/src/components/RevealScreen.tsx": "Final reveal screen displaying a romantic shayri for Angel with decorative hearts and a restart button.",
+  "frontend/src/components/QuizShell.tsx": "Reusable card shell layout component providing consistent centered container with romantic styling and decorative sparkle elements.",
+  "frontend/src/components/AnimatedStep.tsx": "Wrapper component handling smooth fade/slide transitions between different quiz states with reduced-motion support.",
+  "frontend/src/components/HeartBurst.tsx": "Animated heart burst effect component triggered when user selects correct answer, displaying floating hearts with staggered animations.",
+  "frontend/src/components/MusicToggle.tsx": "Fixed-position music control toggle managing optional background audio playback with robust error handling, session persistence, user-gesture-aware play/pause, and graceful degradation when audio fails to load.",
+  "frontend/src/lib/quizData.ts": "Quiz data structure defining all three romantic questions about Angel, options, correct answers, and feedback messages in TypeScript.",
+  "frontend/src/hooks/useSessionState.ts": "Custom React hook for persisting state in sessionStorage with JSON serialization and error handling.",
+  "frontend/src/hooks/useQueries.ts": "Placeholder file for React Query hooks (intentionally minimal as quiz uses local data only).",
+  "frontend/src/index.css": "Global styles with OKLCH romantic color palette, cursive typography, animations (fade-in, heart-burst, spin-slow, shake, float-up), background patterns, ambient hearts styling, and comprehensive reduced-motion support.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending theme with cursive font family (Dancing Script), custom romantic color utilities, and enhanced border radius.",
+  "frontend/src/hooks/usePrefersReducedMotion.ts": "Custom React hook that detects and returns the user's prefers-reduced-motion media query preference, updating reactively when the preference changes.",
+  "frontend/src/components/LockScreen.tsx": "Password gate component with romantic styling that validates the password \"angel\", shows error feedback with shake animation, and unlocks the app on correct entry.",
+  "frontend/src/components/AmbientHearts.tsx": "Fixed-layer component that continuously spawns and animates small floating hearts from bottom to top across the viewport, respecting reduced-motion preferences and capping heart count for performance.",
+  "frontend/publish-domain.json": "JSON configuration file that sets the publish/deployment domain slug to \"ikku-ek-chhota-sa-quiz\" (valid format: lowercase letters, numbers, hyphens only).",
+  "frontend/README.md": "Documentation file explaining the app, publish domain configuration location, domain validation requirements, and basic development commands.",
+  "frontend/src/components/WelcomeScreen.tsx": "Welcome screen component displayed after unlock showing greeting message \"Hi Angel 🤍\", special message, and quiz introduction with a continue button.",
+  "frontend/index.html": "HTML entry point with page title \"❤️ Ek Chhota Sa Quiz\" and root div for React mounting."
+}

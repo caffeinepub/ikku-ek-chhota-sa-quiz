@@ -1,0 +1,41 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-remove-the-text-ikku-from-the-page-title-in-frontend-index-html-changing-it-from-ikku-ek-chhota-sa-quiz-to-ek-chhota-sa-quiz",
+      "featureTitle": "Remove the text 'Ikku' from the page title in frontend/index.html, changing it from 'Ikku ❤️ Ek Chhota Sa Quiz' to '❤️ Ek Chhota Sa Quiz'",
+      "files": [
+        "frontend/index.html"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-remove-the-text-ikku-from-the-introscreen-component-title-in-frontend-src-components-introscreen-tsx-changing-the-heading-from-ikku-ek-chhota-sa-quiz-to-ek-chhota-sa-quiz",
+      "featureTitle": "Remove the text 'Ikku' from the IntroScreen component title in frontend/src/components/IntroScreen.tsx, changing the heading from 'Ikku ❤️ Ek Chhota Sa Quiz' to '❤️ Ek Chhota Sa Quiz'",
+      "files": [
+        "frontend/src/components/IntroScreen.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

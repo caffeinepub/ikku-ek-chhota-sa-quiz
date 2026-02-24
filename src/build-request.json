@@ -1,0 +1,55 @@
+{
+  "kind": "build_request",
+  "title": "Remove Ikku name from third page",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Remove the text 'Ikku' from the page title in frontend/index.html, changing it from 'Ikku ❤️ Ek Chhota Sa Quiz' to '❤️ Ek Chhota Sa Quiz'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "jo third page h jisme ikku naam likha hua h usko hata do"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The HTML title tag no longer contains 'Ikku'",
+        "The heart emoji and 'Ek Chhota Sa Quiz' text remain intact"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Remove the text 'Ikku' from the IntroScreen component title in frontend/src/components/IntroScreen.tsx, changing the heading from 'Ikku ❤️ Ek Chhota Sa Quiz' to '❤️ Ek Chhota Sa Quiz'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "jo third page h jisme ikku naam likha hua h usko hata do"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The h1 heading in IntroScreen no longer displays 'Ikku'",
+        "The heart emoji and 'Ek Chhota Sa Quiz' text remain visible",
+        "The layout and styling remain consistent"
+      ]
+    }
+  ],
+  "constraints": [
+    "Preserve all other text content, styling, and functionality",
+    "Maintain the romantic theme and visual design"
+  ],
+  "nonGoals": [
+    "Changing any quiz questions or answers",
+    "Modifying the password or authentication flow",
+    "Altering the reveal screen or shayari content"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

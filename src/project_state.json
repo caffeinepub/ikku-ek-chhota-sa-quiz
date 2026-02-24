@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "New project",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-remove-the-text-ikku-from-the-page-title-in-frontend-index-html-changing-it-from-ikku-ek-chhota-sa-quiz-to-ek-chhota-sa-quiz",
+      "title": "Remove the text 'Ikku' from the page title in frontend/index.html, changing it from 'Ikku ❤️ Ek Chhota Sa Quiz' to '❤️ Ek Chhota Sa Quiz'",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-remove-the-text-ikku-from-the-introscreen-component-title-in-frontend-src-components-introscreen-tsx-changing-the-heading-from-ikku-ek-chhota-sa-quiz-to-ek-chhota-sa-quiz",
+      "title": "Remove the text 'Ikku' from the IntroScreen component title in frontend/src/components/IntroScreen.tsx, changing the heading from 'Ikku ❤️ Ek Chhota Sa Quiz' to '❤️ Ek Chhota Sa Quiz'",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Remove third page with 'ikku' name",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "projectName": "Remove Ikku name from third page",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

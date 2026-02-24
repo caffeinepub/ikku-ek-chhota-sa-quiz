@@ -1,0 +1,38 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Remove Ikku name from third page",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "summary": "Remove 'Ikku' text from page title in HTML document",
+      "acceptanceCriteria": [
+        "The HTML title tag no longer contains 'Ikku'",
+        "The heart emoji and 'Ek Chhota Sa Quiz' text remain intact"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/index.html",
+          "operation": "modify",
+          "description": "Update the <title> tag content from 'Ikku ❤️ Ek Chhota Sa Quiz' to '❤️ Ek Chhota Sa Quiz', removing only the 'Ikku' text while preserving the heart emoji and quiz name"
+        }
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "summary": "Remove 'Ikku' text from IntroScreen component heading",
+      "acceptanceCriteria": [
+        "The h1 heading in IntroScreen no longer displays 'Ikku'",
+        "The heart emoji and 'Ek Chhota Sa Quiz' text remain visible",
+        "The layout and styling remain consistent"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/IntroScreen.tsx",
+          "operation": "modify",
+          "description": "Update the h1 heading text from 'Ikku ❤️ Ek Chhota Sa Quiz' to '❤️ Ek Chhota Sa Quiz', removing only the 'Ikku' text while preserving the heart emoji, quiz name, and all existing styling classes"
+        }
+      ]
+    }
+  ]
+}
